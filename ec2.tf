@@ -4,6 +4,7 @@ resource "aws_instance" "pubvm" {
   tags = {
     Name = "pubvm"
 name = "newvm"
+env ="new"
   }
 
 }
