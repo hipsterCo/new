@@ -3,6 +3,7 @@ resource "aws_instance" "pubvm" {
   instance_type          = "t2.micro"
   tags = {
     Name = "pubvm"
+name = "newvm"
   }
 
 }
