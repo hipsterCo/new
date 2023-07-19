@@ -5,6 +5,6 @@ resource "aws_instance" "pubvm" {
     Name = "pubvm"
 name = "newvm"
 env ="new"
-  }
+ }
 
 }
